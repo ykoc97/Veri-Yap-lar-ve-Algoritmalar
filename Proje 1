@@ -1,0 +1,34 @@
+
+Proje 1
+
+1) [22,27,16,2,18,6] -> Insertion Sort
+
+   [22 27 16  2 18  6]  Başlangıçtaki elemanımız 22,aralarında en küçük elemanı buluyoruz:2 ,22ile yer değiştiriyoruz(n=5 elemanla karşılaştırıyoruz)
+   [2  27 16 22 18  6]  Sıradaki eleman 27 kalan elemanlardan en küçük elemanı buluyoruz:6 ,27 ile yer değiştiriyoruz(n-1=4 elemanla karşılaştırıyoruz)
+   [2  6  16 22 18 27]  Sıradaki eleman 16 devamındakilerden küçük yer değiştirme yapmamıza gerek yok (n-2=3 elemanla karşılaştırıyoruz)
+   [2  6  16 18 22 27]  Sıradaki eleman 18 devamındakilerden küçük yer değiştirme yapmamıza gerek yok (n-2=2 elemanla karşılaştırıyoruz)
+   [2  6  16 18 22 27]  Sıradaki eleman 22 devamındakilerden küçük yer değiştirme yapmamıza gerek yok (n-2=1 elemanla karşılaştırıyoruz)
+ Son hali:[2  6  16 18 22 27] 
+2)Big-O gösterimini yazınız.
+                      o(n^2)
+3)Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+   BEST CASE:   B(n)=O(1)  
+   WORST CASE:  w(n)=O(n) 
+   AVERAGE CASE = all possibble case time/number of cases
+           n sayıda eleman için           Average Case= (n+1)/2
+          
+4)Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+           Average case
+
+
+
+ [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+1.
+ [2 3 5 8 7 9 4 15 6]
+2. 
+ [2 3 4 8 7 9 5 15 6]
+3. 
+ [2 3 4 5 7 9 8 15 6]
+4. 
+ [2 3 4 5 6 9 8 15 7]
+ 
