@@ -15,7 +15,6 @@ Proje 1
    BEST CASE:   B(n)=O(1)  
    WORST CASE:  w(n)=O(n) 
    AVERAGE CASE = all possibble case time/number of cases
-           n sayıda eleman için           Average Case= (n+1)/2
           
 4)Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
            Average case
